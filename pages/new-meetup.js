@@ -15,7 +15,7 @@ function NewMeetup() {
 		});
 		const resData = await response.json();
 		console.log(resData);
-		router.push('/components');
+		router.push('/');
 	}
 
 	return (
